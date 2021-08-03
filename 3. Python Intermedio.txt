@@ -39,6 +39,119 @@ zen of python, by Tim Peters
 --------------------------------------------------------------------------
 
 
+¿Qué es la documnetación?
+
+cuando desorrallamos software, la documentación es la pieza grande de información que nos explica
+cómo funciona ese determinado lenguaje o tecnología, veelo como un manual.
+
+documentación de python
+
+-------------------------------
+https://docs.python.org/3/ ----
+-------------------------------
+
+
+PEP0 -- Index of python enhancement proposals : indice de propuestas de mejora de python 
+son los documentos que conforman la guia de estilos del lenguaje.
+1. ¿Cómo el lenguaje funciona?
+2. ¿Cómo deberíamos escribir el lenguaje?
+
+El PEP0 Responde a estas dos preguntas.
+
+
+El más importante es el PEPs 8,
+
+--------------------------------------------
+https://www.python.org/dev/peps/pep-0008/
+--------------------------------------------
+
+
+
+
+----------------------------------------------------------------------------------------
+¿Qué es un entorno virtual
+
+
+.Qué es un modulo: es código escrito por otra persona que a nosotros nos sirve para no reinventar
+la rueda.
+
+. ¿Cómo se construye un entorno virtual para python?
+
+es para poder utilizar una versión de python exclusivo y así cuando se actualicen 
+modulos no se rompa el código o el cod no se vea afectado
+
+
+Creando un python nuevo donde vamos a colocar los modulos:
+
+pasos:
+
+1. py -m venv venv  --> se va a crear una carpeta donde va a vivir un python específico para 
+                     este proyecto donde nosotros vamos a instalar los módulos 
+
+dentro de venv de la carpeta creada hay una carpeta llamada SCRIPTS y eso hay que activarlo
+
+
+2. source ven/vin/bin/activate --> para linux y macros
+2. .\venv\Scripts\activate --> para Windows (Entrar al entorno virtual)
+2. deactivate              --> para windows (Salir del entorno virtual)
+
+Todo esto es para no utilizar el python que está en nuestra pc si no para utilizar un python clonado
+uno de los beneficios de esto es para que cuando los modulos que se descargan se actualicen ya no afecte
+al código por ruptura.
+
+salir y entrar al entorno virtual de python es muy molesto se debe de crear un alias de codigo
+para que la entrada sea más sencilla 
+
+  alias aven= .\venv\Scripts\activate
+  alias dven= deactivate
+
+
+
+--------------------------------------------------------------------------------------------------------
+INSTALACIÓN DE DEPENDENCIAS CON pip
+--------------------------------------------------------------------------------------------------------
+
+Módulos populares 
+
+1. Request 
+2. Beautifulsoup4
+3. Pandas
+4. Numpy
+5. Pytest: testing 
+
+esto son los modulos escenciales para poder hacer webscrapping 
+
+¿Cómo utilizo pip?
+
+aven --> pip freeze: Esto me va a mostrar qué modulos están instalados dentro del entorno de 
+                     programación 
+
+para instalar el módulo de Pandas
+
+
+aven --> pip install pandas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
