@@ -132,6 +132,20 @@ para instalar el módulo de Pandas
 aven --> pip install pandas
 
 
+pip freeze > requirements.txt : esto es para saber cuales son los modulos que se han instaladas
+
+y para instalar los requerimientos es de la siguiente manera:
+
+pip install -r requirements.txt
+
+
+anaconda --> es un entorno virtual para la ciencia de datos: python | R | Keras 
+Sólo sirve para la ciencia de datos 
+
+
+
+
+
 
 
 
